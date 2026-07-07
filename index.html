@@ -5,17 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
 <title>Temecula Interior Decor | Modern Furniture, Curated &amp; Styled</title>
-<meta name="description" content="Temecula Interior Decor is a curated collection of modern furniture — sofas, beds, tables, and storage — sourced and styled for beautiful homes across the Temecula Valley.">
+<meta name="description" content="Temecula Interior Decor - a curated collection of modern furniture, sourced and styled for beautiful homes across the Temecula Valley.">
 <link rel="canonical" href="https://www.temeculainteriordecor.com/">
 <meta name="robots" content="index,follow">
-<meta name="theme-color" content="#171009">
+<meta name="theme-color" content="#0E0E0E">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Temecula Interior Decor">
 <meta property="og:title" content="Temecula Interior Decor | Modern Furniture, Curated &amp; Styled">
-<meta property="og:description" content="Temecula Interior Decor is a curated collection of modern furniture — sofas, beds, tables, and storage — sourced and styled for beautiful homes across the Temecula Valley.">
+<meta property="og:description" content="Temecula Interior Decor - a curated collection of modern furniture, sourced and styled for beautiful homes across the Temecula Valley.">
 <meta property="og:url" content="https://www.temeculainteriordecor.com/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/styles.css?v=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/styles.css?v=3">
 </head>
 <body>
 <header class="nav" id="nav">
@@ -26,7 +26,6 @@
     </a>
     <nav class="links" id="navlinks">
       <a href="/shop">Shop</a>
-      <a href="/shop">Collections</a>
       <a href="/about">About</a>
       <a href="/contact">Contact</a>
       <a class="nav-cta" href="/contact">Request a Quote</a>
@@ -37,7 +36,6 @@
 
 <main>
   <section class="hero">
-    <div class="hero-bg" style="background-image:url('https://lh3.googleusercontent.com/d/1SPVCS-B_8PVEiF_j7G7XUa40eH2rBXGd=w1600')"></div>
     <div class="wrap hero-inner">
       <p class="eyebrow gold">Modern Furniture &middot; Curated</p>
       <h1>Beautiful pieces,<br>effortlessly at home.</h1>
@@ -50,61 +48,108 @@
     </div>
   </section>
 
-  <section class="pad rule-top">
+  <section class="pad-sm">
     <div class="wrap intro">
       <p class="eyebrow gold">The Store</p>
       <h2>Furniture, curated with a designer&rsquo;s eye.</h2>
-      <p class="lead">Temecula Interior Decor is the furnishings arm of our design studio &mdash; the same taste that shapes our interiors, now something you can bring home directly.</p>
-      <p>Every piece is chosen for its proportion, comfort, and quiet modern character. Browse the collection, request a quote on anything that speaks to you, and we&rsquo;ll take it from there &mdash; including white-glove delivery and styling if you&rsquo;d like a hand placing it.</p>
+      <p>Temecula Interior Decor is the furnishings arm of our design studio &mdash; the same taste that shapes our interiors, now something you can bring home directly. Browse the collection, request a quote on anything that speaks to you, and we&rsquo;ll handle the rest.</p>
     </div>
   </section>
 
-  <section class="pad-sm cream-band">
+  <section class="pad-carousel">
     <div class="wrap">
-      <div class="sec-head"><p class="eyebrow gold">Collections</p><h2>Shop by category.</h2></div>
-      <div class="col-grid">
-        <a class="ccard" href="/shop"><span class="ccard-label">Sofas &amp; Seating</span></a>
-        <a class="ccard" href="/shop"><span class="ccard-label">Beds</span></a>
-        <a class="ccard" href="/shop"><span class="ccard-label">Tables</span></a>
-        <a class="ccard" href="/shop"><span class="ccard-label">Storage</span></a>
-      </div>
+      <div class="sec-head"><p class="eyebrow gold">The Collection</p><h2>Featured pieces.</h2></div>
     </div>
-  </section>
-
-  <section class="pad">
-    <div class="wrap">
-      <div class="sec-head"><p class="eyebrow gold">Featured</p><h2>New in the collection.</h2></div>
-      <div class="prod-grid">
-        <a class="pcard" href="/lounge-sofa">
+    <div class="carousel">
+      <button class="car-nav prev" onclick="carScroll(-1)" aria-label="Previous">&lsaquo;</button>
+      <div class="scroller" id="scroller">
+        <a class="pcard" href="/lounge-sofa" data-cat="seating">
           <div class="pcard-im"><img referrerpolicy="no-referrer" src="https://lh3.googleusercontent.com/d/1SPVCS-B_8PVEiF_j7G7XUa40eH2rBXGd=w800" alt="The Lounge Sofa" loading="lazy"></div>
-          <div class="pcard-meta"><span>Sofas &amp; Seating</span><b>The Lounge Sofa</b></div>
+          <div class="pcard-meta">
+            <span class="pcard-cat">Sofas &amp; Seating</span>
+            <b class="pcard-name">The Lounge Sofa</b>
+            <span class="pcard-brand">Temecula Interior Decor</span>
+          </div>
         </a>
-        <a class="pcard" href="/glide-sectional">
+        <a class="pcard" href="/glide-sectional" data-cat="seating">
           <div class="pcard-im"><img referrerpolicy="no-referrer" src="https://lh3.googleusercontent.com/d/1xGEQ9cGYO4BGwy6v1ULK1_lqeXz3h5Zk=w800" alt="The Glide Sectional" loading="lazy"></div>
-          <div class="pcard-meta"><span>Sofas &amp; Seating</span><b>The Glide Sectional</b></div>
+          <div class="pcard-meta">
+            <span class="pcard-cat">Sofas &amp; Seating</span>
+            <b class="pcard-name">The Glide Sectional</b>
+            <span class="pcard-brand">Temecula Interior Decor</span>
+          </div>
         </a>
-        <a class="pcard" href="/drift-sofa">
+        <a class="pcard" href="/drift-sofa" data-cat="seating">
           <div class="pcard-im"><img referrerpolicy="no-referrer" src="https://lh3.googleusercontent.com/d/1_RjUXzqme7YtZZPyTLxlOCSVRzGaVJ6B=w800" alt="The Drift Sofa" loading="lazy"></div>
-          <div class="pcard-meta"><span>Sofas &amp; Seating</span><b>The Drift Sofa</b></div>
+          <div class="pcard-meta">
+            <span class="pcard-cat">Sofas &amp; Seating</span>
+            <b class="pcard-name">The Drift Sofa</b>
+            <span class="pcard-brand">Temecula Interior Decor</span>
+          </div>
         </a>
-        <a class="pcard" href="/effortless-lounge-chair">
+        <a class="pcard" href="/effortless-lounge-chair" data-cat="seating">
           <div class="pcard-im"><img referrerpolicy="no-referrer" src="https://lh3.googleusercontent.com/d/1ma7xPxPA9uckrbklhvEIzGV1sdO0Eca2=w800" alt="The Effortless Lounge Chair" loading="lazy"></div>
-          <div class="pcard-meta"><span>Sofas &amp; Seating</span><b>The Effortless Lounge Chair</b></div>
+          <div class="pcard-meta">
+            <span class="pcard-cat">Sofas &amp; Seating</span>
+            <b class="pcard-name">The Effortless Lounge Chair</b>
+            <span class="pcard-brand">Temecula Interior Decor</span>
+          </div>
         </a>
-        <a class="pcard" href="/waffle-platform-bed">
+        <a class="pcard" href="/waffle-platform-bed" data-cat="beds">
           <div class="pcard-im"><img referrerpolicy="no-referrer" src="https://lh3.googleusercontent.com/d/1oVAhyEQCAJ-Jc3fBF9N_n7uk8x3iSS8w=w800" alt="The Waffle Platform Bed" loading="lazy"></div>
-          <div class="pcard-meta"><span>Beds</span><b>The Waffle Platform Bed</b></div>
+          <div class="pcard-meta">
+            <span class="pcard-cat">Beds</span>
+            <b class="pcard-name">The Waffle Platform Bed</b>
+            <span class="pcard-brand">Temecula Interior Decor</span>
+          </div>
         </a>
-        <a class="pcard" href="/butterfly-bed">
+        <a class="pcard" href="/butterfly-bed" data-cat="beds">
           <div class="pcard-im"><img referrerpolicy="no-referrer" src="https://lh3.googleusercontent.com/d/1u5PsGHd8rhcfjb8KqYJX0BPlpXEHbO-A=w800" alt="The Butterfly Bed" loading="lazy"></div>
-          <div class="pcard-meta"><span>Beds</span><b>The Butterfly Bed</b></div>
+          <div class="pcard-meta">
+            <span class="pcard-cat">Beds</span>
+            <b class="pcard-name">The Butterfly Bed</b>
+            <span class="pcard-brand">Temecula Interior Decor</span>
+          </div>
+        </a>
+        <a class="pcard" href="/elevated-dining-table" data-cat="tables">
+          <div class="pcard-im"><img referrerpolicy="no-referrer" src="https://lh3.googleusercontent.com/d/1KZ4OotlxHTW4lYpIINmd4WqQmrMcwSIP=w800" alt="The Elevated Dining Table" loading="lazy"></div>
+          <div class="pcard-meta">
+            <span class="pcard-cat">Tables</span>
+            <b class="pcard-name">The Elevated Dining Table</b>
+            <span class="pcard-brand">Temecula Interior Decor</span>
+          </div>
+        </a>
+        <a class="pcard" href="/monolith-coffee-table" data-cat="tables">
+          <div class="pcard-im"><img referrerpolicy="no-referrer" src="https://lh3.googleusercontent.com/d/174V7Ymx9HNJV-Yp_xL9sJUqeI1W5ym2u=w800" alt="The Monolith Coffee Table" loading="lazy"></div>
+          <div class="pcard-meta">
+            <span class="pcard-cat">Tables</span>
+            <b class="pcard-name">The Monolith Coffee Table</b>
+            <span class="pcard-brand">Temecula Interior Decor</span>
+          </div>
+        </a>
+        <a class="pcard" href="/walnut-led-end-table" data-cat="tables">
+          <div class="pcard-im"><img referrerpolicy="no-referrer" src="https://lh3.googleusercontent.com/d/1zxfy-TY9erayOyfj0zVy-hm8QXrdbtYe=w800" alt="The Walnut LED End Table" loading="lazy"></div>
+          <div class="pcard-meta">
+            <span class="pcard-cat">Tables</span>
+            <b class="pcard-name">The Walnut LED End Table</b>
+            <span class="pcard-brand">Temecula Interior Decor</span>
+          </div>
+        </a>
+        <a class="pcard" href="/modern-dresser" data-cat="storage">
+          <div class="pcard-im"><img referrerpolicy="no-referrer" src="https://lh3.googleusercontent.com/d/1XMNXVOkWewwVn3MtB3UuuTKNU2bWEDog=w800" alt="The Modern Dresser" loading="lazy"></div>
+          <div class="pcard-meta">
+            <span class="pcard-cat">Storage</span>
+            <b class="pcard-name">The Modern Dresser</b>
+            <span class="pcard-brand">Temecula Interior Decor</span>
+          </div>
         </a>
       </div>
-      <div class="center" style="margin-top:48px"><a class="btn btn-line" href="/shop">View All Pieces</a></div>
+      <button class="car-nav next" onclick="carScroll(1)" aria-label="Next">&rsaquo;</button>
     </div>
+    <div class="wrap center" style="margin-top:14px"><a class="btn btn-line" href="/shop">View All Pieces</a></div>
   </section>
 
-  <section class="pad dark-band">
+  <section class="pad-sm dark-band">
     <div class="wrap values">
       <div class="val"><span class="val-n">01</span><h3>Designer-curated</h3><p>Chosen by the same studio behind our interiors &mdash; proportion and quality first.</p></div>
       <div class="val"><span class="val-n">02</span><h3>White-glove delivery</h3><p>Receiving, delivery, and in-home placement handled for you across the valley.</p></div>
@@ -154,6 +199,6 @@
     <span>From render to reality</span>
   </div>
 </footer>
-<script src="/script.js?v=1"></script>
+<script src="/script.js?v=3"></script>
 </body>
 </html>
