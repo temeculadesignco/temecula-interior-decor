@@ -211,3 +211,21 @@ header.nav,.hero,.dark-band,.page-hero,.contact-info,footer,nav.links.open{backg
 /* denser shop grid for the full catalog */
 .prod-grid{grid-template-columns:repeat(4,1fr);gap:24px}
 @media(max-width:960px){.scroller .pcard{flex:0 0 42vw}.prod-grid{grid-template-columns:1fr 1fr}}
+
+/* ===== Brand-color rebalance: warm gold accents + cream, keep the blues ===== */
+:root{--bg:#C9A24B;--bg-bright:#F6E6B8;--paper:#F4EEE3}
+.eyebrow.gold,.pcard-cat{color:var(--bg)}
+.tagline,footer .tagline{color:var(--bg)}
+.pcard-im::after{background:linear-gradient(115deg,var(--bg) 0%,var(--bg-bright) 18%,#FFFFFF 30%,var(--bg-bright) 42%,var(--bg) 62%,var(--bg) 100%);background-size:260% 100%}
+.pdp-frame::after{background:linear-gradient(115deg,var(--bg),var(--bg-bright) 30%,#fff 40%,var(--bg-bright) 50%,var(--bg) 70%);background-size:260% 100%}
+.pcard:hover .pcard-im{box-shadow:0 10px 34px rgba(0,0,0,.12),0 0 22px rgba(201,162,75,.24)}
+/* re-assert light-blue accents on the navy sections */
+.hero .eyebrow.gold,.page-hero .eyebrow.gold{color:var(--gold-l)}
+/* studio portals */
+.portals{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:1000px;margin:0 auto}
+.portal{display:block;padding:34px 32px;background:var(--navy);border:1px solid rgba(159,192,232,.22);transition:.3s}
+.portal:hover{background:#284f77;transform:translateY(-2px)}
+.portal-eye{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--bg)}
+.portal-h{display:block;font-family:var(--serif);font-size:26px;font-weight:500;color:#fff;margin:10px 0 8px}
+.portal-sub{font-size:12px;letter-spacing:.08em;color:rgba(255,255,255,.6)}
+@media(max-width:700px){.portals{grid-template-columns:1fr}}
