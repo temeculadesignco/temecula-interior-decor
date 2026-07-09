@@ -5,9 +5,10 @@
   --black-2:#161616;
   --ink:#15140F;
   --muted:#8A857C;
-  --gold:#C9A24B;
-  --gold-l:#E7D08A;
-  --gold-bright:#F6E6B8;
+  --gold:#2E6C93;
+  --gold-l:#9FC0E8;
+  --gold-bright:#DCEBF7;
+  --navy:#20456A;
   --line:#E9E6DF;
   --serif:'Cormorant Garamond',Georgia,serif;
   --sans:'Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -189,3 +190,24 @@ footer ul li a:hover{color:#fff}
   .car-nav{display:none}
 }
 @media(max-width:560px){.prod-grid,.foot-grid{grid-template-columns:1fr}}
+
+/* ===== Blue palette (teals/blues) + black logo on navy + icon-size reel ===== */
+header.nav,.hero,.dark-band,.page-hero,.contact-info,footer,nav.links.open{background:var(--navy)}
+.hero:before{background:radial-gradient(circle,rgba(159,192,232,.16),transparent 62%)}
+/* light-blue accents on the navy (dark) sections */
+.nav .brand .wm span,.hero .eyebrow.gold,.page-hero .eyebrow.gold,footer h4,.dark-band .val-n,.contact-info .ci span{color:var(--gold-l)}
+.nav-cta{border-color:var(--gold-l);color:var(--gold-l)!important}
+.nav-cta:hover{background:var(--gold-l);color:var(--navy)!important}
+.btn-ghost:hover{border-color:var(--gold-l);color:var(--gold-l)}
+.btn-gold{color:#fff}
+.btn-gold:hover{background:#3E82AE;color:#fff}
+/* icon-size squares in the reel — same shimmer border/style, just smaller */
+.scroller{gap:16px}
+.scroller .pcard{flex:0 0 152px}
+.scroller .pcard .pcard-meta{padding-top:9px}
+.scroller .pcard .pcard-cat{font-size:8px;letter-spacing:.18em}
+.scroller .pcard .pcard-name{font-size:13.5px;margin-top:3px;line-height:1.12}
+.scroller .pcard .pcard-brand{font-size:7px;letter-spacing:.16em;margin-top:5px}
+/* denser shop grid for the full catalog */
+.prod-grid{grid-template-columns:repeat(4,1fr);gap:24px}
+@media(max-width:960px){.scroller .pcard{flex:0 0 42vw}.prod-grid{grid-template-columns:1fr 1fr}}
