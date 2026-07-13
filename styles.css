@@ -229,3 +229,8 @@ header.nav,.hero,.dark-band,.page-hero,.contact-info,footer,nav.links.open{backg
 .portal-h{display:block;font-family:var(--serif);font-size:26px;font-weight:500;color:#fff;margin:10px 0 8px}
 .portal-sub{font-size:12px;letter-spacing:.08em;color:rgba(255,255,255,.6)}
 @media(max-width:700px){.portals{grid-template-columns:1fr}}
+
+/* product page image gallery (click a thumb to enlarge it) */
+.pgal{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+.pgal img{width:76px;height:76px;object-fit:cover;background:#fff;border:1px solid var(--line);border-radius:2px;cursor:pointer;transition:.25s}
+.pgal img:hover{border-color:var(--bg);transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.10)}
