@@ -2,6 +2,9 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    { "source": "/img/c/:file", "destination": "https://www.sierralivingconcepts.com/images/thumbs/:file" }
+  ],
   "headers": [
     {
       "source": "/(.*)",
