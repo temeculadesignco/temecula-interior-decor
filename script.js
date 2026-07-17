@@ -3,7 +3,8 @@ function filt(btn,cat){
   document.querySelectorAll('.filter button').forEach(function(b){b.classList.remove('active');});
   btn.classList.add('active');
   document.querySelectorAll('.scroller .pcard').forEach(function(c){
-    c.style.display=(cat==='all'||c.dataset.cat===cat)?'':'none';
+    var cats=(c.dataset.cat||'').trim().split(/\s+/);
+    c.style.display=(cat==='all'||cats.indexOf(cat)!==-1)?'':'none';
   });
 }
 window.carScroll=function(dir,el){
