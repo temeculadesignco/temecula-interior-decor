@@ -3,7 +3,14 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/img/c/:file", "destination": "https://www.sierralivingconcepts.com/images/thumbs/:file" }
+    {
+      "source": "/img/c/:file",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/:file"
+    },
+    {
+      "source": "/img/h/:file",
+      "destination": "https://cdn.homeinfatuation.com/product/600/:file"
+    }
   ],
   "headers": [
     {
