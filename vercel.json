@@ -10,6 +10,114 @@
     {
       "source": "/img/h/:file",
       "destination": "https://cdn.homeinfatuation.com/product/600/:file"
+    },
+    {
+      "source": "/img/p/s001.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0390991_sierra-nevada-console-table-with-wine-rack.jpeg"
+    },
+    {
+      "source": "/img/p/s002.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0391044_sierra-nevada-solid-wood-kitchen-side-dining-chair-furniture.jpeg"
+    },
+    {
+      "source": "/img/p/s003.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0392046_sierra-rustic-reclaimed-wood-large-bedroom-dresser-with-7-drawers.jpeg"
+    },
+    {
+      "source": "/img/p/s004.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0392448_sierra-rustic-solid-wood-dining-table-with-parson-chairs-set.jpeg"
+    },
+    {
+      "source": "/img/p/s005.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0392458_sierra-solid-wood-sutton-double-pedestal-dining-table.jpeg"
+    },
+    {
+      "source": "/img/p/s006.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0392603_sierra-nevada-modern-solid-wood-3-drawer-rustic-sideboard.jpeg"
+    },
+    {
+      "source": "/img/p/s007.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0392905_modern-sierra-rustic-solid-wood-glass-door-buffet-table.jpeg"
+    },
+    {
+      "source": "/img/p/s008.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0395486_sierra-nevada-rustic-solid-wood-low-profile-4-pc-bedroom-set.jpeg"
+    },
+    {
+      "source": "/img/p/s009.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0395502_sierra-nevada-handcrafted-solid-wood-4-drawer-tall-armoire-closet.jpeg"
+    },
+    {
+      "source": "/img/p/s010.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0395524_sierra-nevada-handcrafted-solid-wood-nightstand-with-drawer.jpeg"
+    },
+    {
+      "source": "/img/p/s011.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0395536_sierra-nevada-rustic-solid-wood-low-profile-platform-bed.jpeg"
+    },
+    {
+      "source": "/img/p/s012.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0398434_sierra-nevada-rustic-solid-wood-2-tier-square-end-table.jpeg"
+    },
+    {
+      "source": "/img/p/s013.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0400705_modern-sierra-solid-wood-dining-table.jpeg"
+    },
+    {
+      "source": "/img/p/s014.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0400715_modern-sierra-rustic-solid-wood-dining-table-set.jpeg"
+    },
+    {
+      "source": "/img/p/s015.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0402553_sierra-nevada-rustic-solid-wood-4-piece-bedroom-set.jpeg"
+    },
+    {
+      "source": "/img/p/s016.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0402567_sierra-nevada-rustic-solid-wood-platform-bed.jpeg"
+    },
+    {
+      "source": "/img/p/s017.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0402586_sierra-nevada-rustic-solid-wood-nightstand-with-drawer.jpeg"
+    },
+    {
+      "source": "/img/p/s018.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0402594_sierra-nevada-traditional-solid-wood-large-wardrobe-armoire-with-drawers.jpeg"
+    },
+    {
+      "source": "/img/p/s019.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0402601_sierra-nevada-rustic-solid-wood-5-piece-living-room-set.jpeg"
+    },
+    {
+      "source": "/img/p/s020.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0402610_sierra-nevada-rustic-solid-wood-pedestal-round-coffee-table.jpeg"
+    },
+    {
+      "source": "/img/p/s021.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0402623_sierra-nevada-rustic-solid-wood-tv-media-console.jpeg"
+    },
+    {
+      "source": "/img/p/s022.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0405736_sierra-vista-solid-mahogany-wood-home-bar-furniture-set.jpeg"
+    },
+    {
+      "source": "/img/p/s023.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0406806_sierra-rustic-solid-wood-sutton-upholstered-parsons-chair.jpeg"
+    },
+    {
+      "source": "/img/p/s024.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0406811_sierra-rustic-solid-wood-long-buffet-sideboard-cabinet.jpeg"
+    },
+    {
+      "source": "/img/p/s025.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0407023_sierra-nevada-rustic-solid-wood-black-wine-bar-sideboard-cabinet.jpeg"
+    },
+    {
+      "source": "/img/p/s026.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0413075_sierra-nevada-handcrafted-solid-wood-rustic-large-fully-mirror-frame.jpeg"
+    },
+    {
+      "source": "/img/p/s027.jpeg",
+      "destination": "https://www.sierralivingconcepts.com/images/thumbs/0432175_sierra-nevada-solid-wood-dresser-and-nightstand-set.jpeg"
     }
   ],
   "headers": [
