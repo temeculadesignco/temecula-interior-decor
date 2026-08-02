@@ -103,7 +103,7 @@ nav.links a:hover:after,nav.links a.active:after{width:100%}
 .carousel{position:relative;max-width:1400px;margin:0 auto}
 .scroller{display:flex;gap:26px;overflow-x:auto;scroll-snap-type:x mandatory;padding:14px 40px 26px;scrollbar-width:none;-ms-overflow-style:none}
 .scroller::-webkit-scrollbar{display:none}
-.scroller .pcard{flex:0 0 330px;scroll-snap-align:center}
+.scroller .pcard{flex:0 0 330px;scroll-snap-align:center;content-visibility:auto;contain-intrinsic-size:330px 430px}
 .car-nav{position:absolute;top:calc(50% - 40px);transform:translateY(-50%);z-index:5;width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--black);font-size:26px;line-height:1;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.08);transition:.25s;display:flex;align-items:center;justify-content:center;font-family:var(--serif)}
 .car-nav:hover{background:var(--black);color:var(--gold);border-color:var(--black)}
 .car-nav.prev{left:6px}
@@ -203,7 +203,7 @@ header.nav,.hero,.dark-band,.page-hero,.contact-info,footer,nav.links.open{backg
 .btn-gold:hover{background:#3E82AE;color:#fff}
 /* icon-size squares in the reel — same shimmer border/style, just smaller */
 .scroller{gap:16px}
-.scroller .pcard{flex:0 0 152px}
+.scroller .pcard{flex:0 0 152px;contain-intrinsic-size:152px 226px}
 .scroller .pcard .pcard-meta{padding-top:9px}
 .scroller .pcard .pcard-cat{font-size:8px;letter-spacing:.18em}
 .scroller .pcard .pcard-name{font-size:13.5px;margin-top:3px;line-height:1.12}

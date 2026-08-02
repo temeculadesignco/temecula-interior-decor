@@ -12,6 +12,10 @@
       "destination": "https://cdn.homeinfatuation.com/product/600/:file"
     },
     {
+      "source": "/img/r/:file",
+      "destination": "https://media.restorationhardware.com/is/image/rhis/:file?wid=1200&hei=1200&fit=fit&fmt=jpeg"
+    },
+    {
       "source": "/img/p/s001.jpeg",
       "destination": "https://www.sierralivingconcepts.com/images/thumbs/0390991_sierra-nevada-console-table-with-wine-rack.jpeg"
     },
