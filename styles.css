@@ -97,7 +97,7 @@ nav.links a:hover:after,nav.links a.active:after{width:100%}
 .pcard-meta{padding:16px 2px 0;text-align:left}
 .pcard-cat{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:500}
 .pcard-name{font-family:var(--serif);font-size:23px;font-weight:500;color:var(--black);display:block;margin-top:4px;line-height:1.15}
-.pcard-brand{display:block;margin-top:7px;font-size:9.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.pcard-brand{display:block;margin-top:7px;font-family:var(--serif);font-style:italic;font-size:12.5px;line-height:1.15;letter-spacing:.045em;text-transform:none;color:var(--bg);font-weight:500;opacity:.95}
 
 /* CAROUSEL */
 .carousel{position:relative;max-width:1400px;margin:0 auto}
@@ -207,7 +207,7 @@ header.nav,.hero,.dark-band,.page-hero,.contact-info,footer,nav.links.open{backg
 .scroller .pcard .pcard-meta{padding-top:9px}
 .scroller .pcard .pcard-cat{font-size:8px;letter-spacing:.18em}
 .scroller .pcard .pcard-name{font-size:13.5px;margin-top:3px;line-height:1.12}
-.scroller .pcard .pcard-brand{font-size:7px;letter-spacing:.16em;margin-top:5px}
+.scroller .pcard .pcard-brand{font-size:9px;letter-spacing:.02em;margin-top:4px}
 /* denser shop grid for the full catalog */
 .prod-grid{grid-template-columns:repeat(4,1fr);gap:24px}
 @media(max-width:960px){.scroller .pcard{flex:0 0 42vw}.prod-grid{grid-template-columns:1fr 1fr}}
